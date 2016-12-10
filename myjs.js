@@ -166,7 +166,7 @@ $(document).ready(function(){
                 beginVP.onclick = function() {
                     beginVP.style.borderColor = "rgba(108,232,146,1)";
                     introVP.style.left = "-150vw";
-                    q1.style.left = "15vw";
+                    q1.style.left = "20vw";
                     a5a.style.borderColor = "rgba(108,232,146,0)";
                     a5b.style.borderColor = "rgba(108,232,146,0)";
                     a5c.style.borderColor = "rgba(108,232,146,0)";
@@ -176,19 +176,19 @@ $(document).ready(function(){
                    beginVP.style.borderColor = "rgba(108,232,146,0)";
                    a1a.style.borderColor = "rgba(108,232,146,1)";
                    q1.style.left = "-150vw";
-                   q2.style.left = "15vw";
+                   q2.style.left = "20vw";
                };
                a1b.onclick = function() {
                    beginVP.style.borderColor = "rgba(108,232,146,0)";
                    a1b.style.borderColor = "rgba(108,232,146,1)";
                    q1.style.left = "-150vw";
-                   q2.style.left = "15vw";
+                   q2.style.left = "20vw";
                };
                a1c.onclick = function() {
                    beginVP.style.borderColor = "rgba(108,232,146,0)";
                    a1c.style.borderColor = "rgba(108,232,146,1)";
                    q1.style.left = "-150vw";
-                   q2.style.left = "15vw";
+                   q2.style.left = "20vw";
                    response1 = true;
                };
                
@@ -198,7 +198,7 @@ $(document).ready(function(){
                    a1c.style.borderColor = "rgba(108,232,146,0)";
                    a2a.style.borderColor = "rgba(108,232,146,1)";
                    q2.style.left = "-150vw";
-                   q3.style.left = "15vw";
+                   q3.style.left = "20vw";
                };
                a2b.onclick = function() {
                    a1a.style.borderColor = "rgba(108,232,146,0)";
@@ -206,7 +206,7 @@ $(document).ready(function(){
                    a1c.style.borderColor = "rgba(108,232,146,0)";
                    a2b.style.borderColor = "rgba(108,232,146,1)";
                    q2.style.left = "-150vw";
-                   q3.style.left = "15vw";
+                   q3.style.left = "20vw";
                    response2 = true;
                };
                
@@ -215,7 +215,7 @@ $(document).ready(function(){
                    a2b.style.borderColor = "rgba(108,232,146,0)";
                    a3a.style.borderColor = "rgba(108,232,146,1)";
                    q3.style.left = "-150vw";
-                   q4.style.left = "15vw";
+                   q4.style.left = "20vw";
                    response1 = true;
                };
                a3b.onclick = function() {
@@ -223,7 +223,7 @@ $(document).ready(function(){
                    a2b.style.borderColor = "rgba(108,232,146,0)";
                    a3b.style.borderColor = "rgba(108,232,146,1)";
                    q3.style.left = "-150vw";
-                   q4.style.left = "15vw";    
+                   q4.style.left = "20vw";    
                };
                
                a4a.onclick = function() {
@@ -231,7 +231,7 @@ $(document).ready(function(){
                    a3b.style.borderColor = "rgba(108,232,146,0)";
                    a4a.style.borderColor = "rgba(108,232,146,1)";
                    q4.style.left = "-150vw";
-                   q5.style.left = "15vw";
+                   q5.style.left = "20vw";
                    response1 = true;
                }; 
                a4b.onclick = function() {
@@ -239,7 +239,7 @@ $(document).ready(function(){
                    a3b.style.borderColor = "rgba(108,232,146,0)";
                    a4b.style.borderColor = "rgba(108,232,146,1)";
                    q4.style.left = "-150vw";
-                   q5.style.left = "15vw";    
+                   q5.style.left = "20vw";   
                };
                
                a5a.onclick = function() {
@@ -247,7 +247,7 @@ $(document).ready(function(){
                    a4b.style.borderColor = "rgba(108,232,146,0)";
                    a5a.style.borderColor = "rgba(108,232,146,1)";
                    q5.style.left = "-150vw";
-                   resultVP.style.left = "15vw";
+                   resultVP.style.left = "20vw";
                    response3 = 0;
                    
                    console.log(response1);
@@ -261,7 +261,7 @@ $(document).ready(function(){
 
                    
                    appLink.setAttribute("href", "https://play.google.com/store?hl=en");
-                   appImg.src = "googleplay.png";
+                   appImg.src = "android.png";
                   
                    if (response2) {
                        rentDiv.style.visibility = "visible";
@@ -272,7 +272,7 @@ $(document).ready(function(){
                    a4b.style.borderStyle = "hidden";
                    a5b.style.borderColor = "rgba(108,232,146,1)";
                    q5.style.left = "-150vw";
-                   resultVP.style.left = "15vw";
+                   resultVP.style.left = "20vw";
                    response3 = 1;
                    
                    console.log(response1);
@@ -285,7 +285,7 @@ $(document).ready(function(){
                    };
                    
                    appLink.setAttribute("href", "https://www.apple.com/itunes/");
-                   appImg.src = "Appstore-logo.png";
+                   appImg.src = "apple.png";
 
                    if (response2) {
                        rentDiv.style.visibility = "visible";
@@ -296,23 +296,16 @@ $(document).ready(function(){
                    a4b.style.borderStyle = "hidden";
                    a5c.style.borderColor = "rgba(108,232,146,1)";
                    q5.style.left = "-150vw";
-                   resultVP.style.left = "15vw";
+                   resultVP.style.left = "20vw";
                    response3 = 2;
                    
                    console.log(response1);
                    console.log(response2);
                    console.log(response3);
-                   if (response1) {
-                       appVersion.innerHTML = "Premium App";
-                   } else {
-                       appVersion.innerHTML = "Standard App";
-                   };
-
-                   appVersion.innerHTML = "Unfortunately, we only offer Android and iOS Apps at this time.";
                    
-                   if (response2) {
-                       rentDiv.style.visibility = "visible";
-                   };
+
+                   appVerDiv.innerHTML = "Unfortunately, we only offer Android and iOS Apps at this time.";
+                   rentDiv.innerHTML = "";
                }; 
                
                
@@ -325,6 +318,8 @@ $(document).ready(function(){
                            //if succussful, come back with response
                            console.log(resp);
                            displayDiv.innerHTML = resp;
+                           var divLoc = $('#rent').offset();
+                           $('html, body').animate({scrollTop: divLoc.top}, "slow");
                        } 
                     });
                     activeMenu = "dl_menu";
@@ -369,6 +364,101 @@ $(document).ready(function(){
                //if succussful, come back with response
                console.log(resp);
                displayDiv.innerHTML = resp;
+
+               var regName = /^[A-Za-z0-9]{5,15}$/;  //compare something (usually string) to see if the inside word exists.
+               var regComment = /^.{1,150}$/;
+               var regScore = /^[0-5]$/;
+               
+               var inputDiv = document.getElementById("user_review");
+               var inputName = document.getElementById("input_username");
+               var inputComm = document.getElementById("input_comment");
+               var inputScore = document.getElementById("input_score");
+               var errorDiv = document.getElementById("error_msg");
+               var subButt = document.getElementById("submit");
+               var existRevs = document.getElementById("existing_reviews");
+               
+               inputName.onkeyup = function() {
+                   if (regName.test(inputName.value)) {
+                        inputName.style.color = "#6CE892";
+                        inputName.style.borderColor = "#6CE892";
+                        errorDiv.innerHTML = "Your user name is correctly inputted."; 
+                    } else {
+                        inputName.style.color = "#EA64F5";
+                        inputName.style.borderColor = "#EA64F5";
+                        errorDiv.innerHTML = "Your user name must be 5 to 15 character of letters or numbers."; 
+                    };
+                    var n = regName.test(inputName.value);
+                    var c = regComment.test(inputComm.value);
+                    var s = regScore.test(inputScore.value);
+
+                    if (n && c && s) {
+                        subButt.style.visibility = "visible";        
+                    } else {
+                        subButt.style.visibility = "hidden";
+                    };
+               };
+               
+               inputComm.onkeyup = function() {
+                   if (regComment.test(inputComm.value)) {
+                        inputComm.style.color = "#6CE892";
+                        inputComm.style.borderColor = "#6CE892";
+                        errorDiv.innerHTML = "Your comment is correctly inputted."; 
+                    } else {
+                        inputComm.style.color = "#EA64F5";
+                        inputComm.style.borderColor = "#EA64F5";
+                        errorDiv.innerHTML = "Your comment must be between 1 to 150 characters."; 
+                    };
+                    var n = regName.test(inputName.value);
+                    var c = regComment.test(inputComm.value);
+                    var s = regScore.test(inputScore.value);
+
+                    if (n && c && s) {
+                        subButt.style.visibility = "visible";        
+                    } else {
+                        subButt.style.visibility = "hidden";
+                    };
+               };
+               
+               inputScore.onkeyup = function() {
+                   if (regScore.test(inputScore.value)) {
+                        inputScore.style.color = "#6CE892";
+                        inputScore.style.borderColor = "#6CE892";
+                        errorDiv.innerHTML = "Your score is correctly inputted."; 
+                    } else {
+                        inputScore.style.color = "#EA64F5";
+                        inputScore.style.borderColor = "#EA64F5";
+                        errorDiv.innerHTML = "Your score must be a single character, 0 to 5"; 
+                    };
+                    var n = regName.test(inputName.value);
+                    var c = regComment.test(inputComm.value);
+                    var s = regScore.test(inputScore.value);
+
+                    if (n && c && s) {
+                        subButt.style.visibility = "visible";        
+                    } else {
+                        subButt.style.visibility = "hidden";
+                    };
+               };
+               subButt.onclick = function() {
+                   var reviewDiv = document.createElement("div");
+                   reviewDiv.className = "review";
+                   var scoreDiv = document.createElement("div");
+                   scoreDiv.className = "score";
+                   var commP = document.createElement("p");
+                   commP.className = "comm";
+                   var nameDate = document.createElement("namedate");
+                   nameDate.className = "namedate"
+                   scoreDiv.innerHTML = "Score: " + inputScore.value;
+                   commP.innerHTML = inputComm.value;
+                   nameDate.innerHTML = "--" + inputName.value + " on " + Date();
+                   reviewDiv.appendChild(scoreDiv);
+                   reviewDiv.appendChild(commP);
+                   reviewDiv.appendChild(nameDate);
+                   existRevs.appendChild(reviewDiv);
+                   inputDiv.innerHTML = '';
+                   
+               };
+               
            } 
         });
         activeMenu = "rv_menu";
