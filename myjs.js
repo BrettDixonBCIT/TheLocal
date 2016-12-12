@@ -392,7 +392,7 @@ $(document).ready(function(){
                     var s = regScore.test(inputScore.value);
 
                     if (n && c && s) {
-                        subButt.style.visibility = "visible";        
+                        subButt.style.visibility = "visible";
                     } else {
                         subButt.style.visibility = "hidden";
                     };
@@ -413,7 +413,7 @@ $(document).ready(function(){
                     var s = regScore.test(inputScore.value);
 
                     if (n && c && s) {
-                        subButt.style.visibility = "visible";        
+                        subButt.style.visibility = "visible";
                     } else {
                         subButt.style.visibility = "hidden";
                     };
@@ -434,7 +434,7 @@ $(document).ready(function(){
                     var s = regScore.test(inputScore.value);
 
                     if (n && c && s) {
-                        subButt.style.visibility = "visible";        
+                        subButt.style.visibility = "visible";
                     } else {
                         subButt.style.visibility = "hidden";
                     };
