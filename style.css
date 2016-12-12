@@ -43,7 +43,7 @@ body {
     border-width: 0.25vw;
     border-color: #00C4FF;
     position:fixed;
-    top: 40vh;
+    top: 50vh;
     left: 20vw;
     text-align:center;
     -webkit-transition: left 2s; /* Safari */
